@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Photo Gallery" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/rate"
+            android:title="Rate Me" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/bug"
+                android:title="Report Bug" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/email"
+                android:title="Contact Me " />
+        </menu>
+    </item>
+
+</menu>

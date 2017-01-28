@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/content_splash"
+    android:layout_width="wrap_content"
+    android:background="@drawable/splash"
+    android:layout_height="wrap_content"
+    tools:context="com.shopping.prakashgurung.atry.org.shopping.prakashgurung.atry.SplashActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar11"
+        tools:visibility="invisible"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        tools:visibility="invisible"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar12"
+        tools:visibility="invisible"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar13"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:id="@+id/progressBar14" />
+
+
+</LinearLayout>
