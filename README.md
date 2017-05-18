@@ -1,7 +1,7 @@
 # ShoppingAndroidApplication
 ---
 ***This is an app that I worked on during my spring break.
-* The user can browse latest fashion collection and provide feedbacks.
+* Users can browse latest fashion collection and provide feedbacks.
 ---
 **How to run ?**
 * Clone the reposistory and run it using android studio
